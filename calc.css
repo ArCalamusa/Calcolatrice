@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/flat-lay-photo-of-office-desk-with-laptop-copy-space-background.jpg);
+    background-size: cover;
+}
+
+#calc input {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+}
+
+#calc input:hover {
+    background-color: #ccc;
+    border-radius: 2px;
+}
+
+#calc input:active {
+    background-color: #aaa;
+}
+
+#calcolatrice {
+    background-color: #e3d9d982;
+    width: fit-content;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 7px #999;
+    margin: 250px 700px;
+    border-radius: 10px;
+}
+
+.area {
+    width: 165px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
